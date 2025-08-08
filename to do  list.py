@@ -47,8 +47,5 @@ my_scrollbar.pack(side="right",fill="y")
 my_list_box.config(yscrollcommand=my_scrollbar.set)
 my_scrollbar.config(command=my_list_box.yview)
 
-
-
-
 root.mainloop()
 
